@@ -1,0 +1,16 @@
+Use Case: E-commerce Transaction Processing
+
+
+Scenario: 
+
+	You have sales transactions coming in from an e-commerce platform. Each transaction has fields like transaction_id, user_id, product_id, quantity, price, and timestamp. The data is stored in a CSV format in a GCS bucket. 
+	
+The task is to:
+
+		a. Read the data.
+		b. Validate each transaction (e.g., check if user_id, product_id, quantity, price are valid).
+		c. Log and handle invalid transactions.
+		d. Calculate total sales for each valid transaction.
+		e. Write valid and transformed data to a BigQuery Table
+		f. Write in-valid records to another GCS bucket
+		g. Monitor the pipeline with basic metrics.
