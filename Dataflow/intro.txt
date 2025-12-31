@@ -1,0 +1,9 @@
+Streaming Pipeline:
+
+		○ Read the data from Topic continuously
+		○ Processing the data
+		○ Validate the data
+		○ Logging 
+		○ Monitoring metrics 
+		○ Error handling
+		○ Write the data to BigQuery
